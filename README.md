@@ -253,5 +253,5 @@ vue-express-mongo-bulma is available under the [MIT license](https://tldrlegal.c
 
 Copyright (C) 2017 Yungol
 
-[![@yungol](https://img.shields.io/badge/github-yungol-green.svg)](https://github.com/yungol) [![@yungol](https://img.shields.io/badge/twitter-yungol-blue.svg)](https://twitter.com/yungol) [![@yungol](https://img.shields.io/badge/tumblr-yungol-3A01DF.svg)](https://yungol.tumblr.com)
+[![@yungol](https://img.shields.io/badge/github-yungol-green.svg)](https://github.com/yungol) [![@yungol](https://img.shields.io/badge/twitter-yungol-blue.svg)](https://twitter.com/yungol) [![@yungol](https://img.shields.io/badge/tumblr-yungol-36465d.svg)](https://yungol.tumblr.com)
 
