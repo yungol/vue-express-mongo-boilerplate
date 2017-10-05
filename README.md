@@ -1,4 +1,4 @@
-# Vue, Express, MongoDB full-stack JS Boilerplate
+# Vue, Express, MongoDB full-stack JS Bulma
 
 <img src="http://vuejs.org/images/logo.png" height="50"> <img src="https://coligo.io/images/express.svg" height="50"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/527px-MongoDB-Logo.svg.png" height="50"> <img src="https://worldvectorlogo.com/logos/nodejs-icon.svg" height="50"> <img src="https://camo.githubusercontent.com/66747a6e05a799aec9c6e04a3e721ca567748e8b/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313336353838312f313931383337332f32653035373166612d376462632d313165332d383436352d3839356632393164343366652e706e67" height="50">
 
@@ -7,6 +7,9 @@
 ![VueJS 2](https://img.shields.io/badge/vuejs-2.3.x-green.svg)
 ![Webpack 2](https://img.shields.io/badge/webpack-2.6.x-green.svg)
 [![Trace](https://resources.risingstack.com/Monitored+with+Trace+by+RisingStack.svg)](https://trace.risingstack.com/?utm_source=opensource&utm_medium=Icebob)
+
+Este es un proyecto full stack con bulma VueJS + ExpressJS + MongoDB. 
+Este es un fork tomado del proyecto https://github.com/icebob/vue-express-mongo-boilerplate
 
 This is a full stack webapp boilerplate project with VueJS + ExpressJS + MongoDB. NOT an out-of-box project. 
 The goal is to create an up-to-date starter repo which contains all important functions (user signup, login, oauth, profile, ...etc) except the business-logic. So when neccessary I can create a new webapp and only need to develop the business logic.
