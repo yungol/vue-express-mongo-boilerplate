@@ -1,29 +1,27 @@
 # Vue, Express, MongoDB full-stack JS Bulma
 
-<img src="http://vuejs.org/images/logo.png" height="50"> <img src="https://coligo.io/images/express.svg" height="50"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/527px-MongoDB-Logo.svg.png" height="50"> <img src="https://worldvectorlogo.com/logos/nodejs-icon.svg" height="50"> <img src="https://camo.githubusercontent.com/66747a6e05a799aec9c6e04a3e721ca567748e8b/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313336353838312f313931383337332f32653035373166612d376462632d313165332d383436352d3839356632393164343366652e706e67" height="50">
-
 [![Known Vulnerabilities](https://snyk.io/test/github/icebob/vue-express-mongo-boilerplate/badge.svg)](https://snyk.io/test/github/icebob/vue-express-mongo-boilerplate)
 ![Node 6](https://img.shields.io/badge/node-6.x.x-green.svg)
 ![VueJS 2](https://img.shields.io/badge/vuejs-2.3.x-green.svg)
 ![Webpack 2](https://img.shields.io/badge/webpack-2.6.x-green.svg)
 [![Trace](https://resources.risingstack.com/Monitored+with+Trace+by+RisingStack.svg)](https://trace.risingstack.com/?utm_source=opensource&utm_medium=Icebob)
 
-Este es un proyecto full stack con bulma VueJS + ExpressJS + MongoDB. 
+
+Este es un proyecto full stack con bulma VueJS + ExpressJS + MongoDB.
+
 Este es un fork tomado del proyecto https://github.com/icebob/vue-express-mongo-boilerplate
 
-This is a full stack webapp boilerplate project with VueJS + ExpressJS + MongoDB. NOT an out-of-box project. 
-The goal is to create an up-to-date starter repo which contains all important functions (user signup, login, oauth, profile, ...etc) except the business-logic. So when neccessary I can create a new webapp and only need to develop the business logic.
+El objetivo es crear un repo de arranque actualizado que contenga todas las funciones importantes (registro de usuario, inicio de sesión, perfil etc.), excepto la lógica de negocios, al igual que el proyecto original, pero usando bulma en vez de boilerplate.
 
-*This is just my personal boilerplate, it may or may not be a good fit for your project(s).*
-Inspired by [dstroot/skeleton](https://github.com/dstroot/skeleton) and [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter)
+Voy a dejar mis experiencias en el siguiente blog https://yungol.tumblr.com/
 
-**If you like my work, please [donate](https://www.paypal.me/meregnorbert). Thank you!**
+Así que esto les puede servir para crear una nueva webapp y sólo necesitarán dedicarse a la lógica de negocio.
 
-### [Live Demo](http://vemapp.e-paper.space/) (login: test/test1234 or sign-up)
+Tenganme paciencia no soy un programador profesional, lo que hago es copiar y pegar cosas que encuentro en google. 
 
-## Features
+## Características
 
-**Server-side**
+**Lado del Servidor**
 * [x] **[Node.JS](https://nodejs.org)** v6.x.x
 * [x] **[Express](https://github.com/expressjs/express)**
 * [x] [MongoDB](https://www.mongodb.com/) with [Mongoose](https://github.com/Automattic/mongoose)
@@ -36,7 +34,7 @@ Inspired by [dstroot/skeleton](https://github.com/dstroot/skeleton) and [sahat/h
 * [x] **[HTTP/2 Server Push](https://en.wikipedia.org/wiki/HTTP/2_Server_Push)** with [netjet](https://github.com/cloudflare/netjet)
 * [x] Bundled server-side code with [Webpack 2](https://webpack.github.io/)
 
-**Client-side**
+**Lado del Cliente**
 * [x] **[VueJS 2.x](https://github.com/vuejs/vue)**
 * [x] [Vuex](https://github.com/vuejs/vuex)
 * [x] [Vue-router](https://github.com/vuejs/vue-router)
@@ -55,7 +53,7 @@ Inspired by [dstroot/skeleton](https://github.com/dstroot/skeleton) and [sahat/h
 * [x] [Toastr](https://github.com/CodeSeven/toastr)
 * [x] [vue-form-generator](https://github.com/icebob/vue-form-generator)
 
-**Supported remote logging services**
+**Servicios de logging soportados**
 * [x] [Papertrail](https://papertrailapp.com/)
 * [x] [Graylog](https://www.graylog.org/)
 * [x] [LogEntries](https://logentries.com/)
@@ -63,59 +61,49 @@ Inspired by [dstroot/skeleton](https://github.com/dstroot/skeleton) and [sahat/h
 * [x] [Logsene](https://sematext.com/logsene/)
 * [x] [Logz.io](http://logz.io/)
 
-## Usage
+## Antes de Instalar
 
-Install dependencies
+Antes de instalar debe tener node.js y mongo.js
+
+Un editor de Código. Para tirar código he pasado por varios ide de desarrollo, desde Dreamweaver, sublime, atom y webstorm pero actualmente el que más me gusta es Visual Studio Code https://code.visualstudio.com/ es de Microsoft, es gratis y se puede instalar en todos los sistemas operativos.
+
+Programo en Ubuntu y Mac, no me gusta en Windows.
+
+
+
+## Uso
+
+Clonar el Repositorio
+```
+$ git clone https://github.com/yungol/vue-express-mongo-bulma.git
+```
+
+Instalar las dependencias.
 ```
 $ npm install
 ```
-or
-```
-yarn
-```
 
-For development
+Para hacer development
 ```bash
 $ npm run dev
 ```
 
-Build web app scripts and styles:
+Para construir la app los scripts y los estilos:
 ```bash
 $ npm run build
 ```
 
-For production
+Para producción
 ```bash
 $ npm start
 ```
 
-## Docker
-
-Building the images for the first time
-```
-$ docker-compose build
-```
-
-Starting the images
-```
-$ docker-compose up
-```
-
 ## Screenshots
 
-### Login screen
+.... Mas adelante pongo los Sreenshots
 
-![Login screen](https://cloud.githubusercontent.com/assets/306521/20032026/e2241716-a381-11e6-8ec2-4e0263308762.png)
 
-### Index page after login
-
-![Index page](https://cloud.githubusercontent.com/assets/306521/20032034/e401f10c-a381-11e6-86bb-5325671d32bf.png)
-
-### Devices page
-
-![Devices module](https://cloud.githubusercontent.com/assets/306521/20032035/e5e7ec60-a381-11e6-9481-e1db97126797.png)
-
-## Directory structure
+## Estructura del Proyecto
 ```txt
 +---build
 +---client
@@ -257,10 +245,10 @@ These are the instructions for Twitter:
 
 ## License
 
-vue-express-mongo-boilerplate is available under the [MIT license](https://tldrlegal.com/license/mit-license).
+vue-express-mongo-bulma is available under the [MIT license](https://tldrlegal.com/license/mit-license).
 
 ## Contact
 
-Copyright (C) 2016 Icebob
+Copyright (C) 2017 Yungol
 
-[![@icebob](https://img.shields.io/badge/github-icebob-green.svg)](https://github.com/icebob) [![@icebob](https://img.shields.io/badge/twitter-Icebobcsi-blue.svg)](https://twitter.com/Icebobcsi)
+[![@yungol](https://img.shields.io/badge/github-yungol-green.svg)](https://github.com/yungol) [![@yungol](https://img.shields.io/badge/twitter-yungol-blue.svg)](https://twitter.com/yungol)
