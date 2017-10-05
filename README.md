@@ -17,7 +17,7 @@ Voy a dejar mis experiencias en el siguiente blog https://yungol.tumblr.com/
 
 Así que esto les puede servir para crear una nueva webapp y sólo necesitarán dedicarse a la lógica de negocio.
 
-Tenganme paciencia no soy un programador profesional, lo que hago es copiar y pegar cosas que encuentro en google. 
+Paciencia no soy un programador profesional, lo que hago es copiar y pegar cosas que encuentro en google. 
 
 ## Características
 
@@ -160,11 +160,11 @@ $ npm start
 
 ```
 
-## Bundled server-side
+## Construir server-side
 
-If you want to bundle your NodeJS server-side code run webpack on server code with `npm run build && npm run build:server` command. It if was success, run the server: `npm run start:bundle`
+Si desea construir el código del lado del servidor NodeJS, corra webpack en el servidor con el siguiente comando `npm run build && npm run build:server`. Si fue exitoso, corra la aplicación así: `npm run start:bundle`
 
-If you want to export bundled version copy these folders & files to the new place:
+Si quiere exportar la versión construida copie y pegue los siguientes directorios en un nuevo lugar:
 
 ```txt
 - server
@@ -175,14 +175,13 @@ If you want to export bundled version copy these folders & files to the new plac
 - package.json
 - config.js (optional)
 ```
+Antes de empezar, debe instalar las dependencias de producción con npm: `npm install --production`
 
-Before start, you have to install production dependencies with npm: `npm install --production`
-
-## Obtaining API keys for social signup/login
+## Obtener las API keys para el social signup/login
 
 ![Google Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/128px-Google_2015_logo.svg.png)
 
-These are the instructions for Google:
+Estas son las instrucciones para Google:
 
 - Visit [Google Cloud Console](https://cloud.google.com/console/project)
 - Click on the **Create Project** button
@@ -202,7 +201,7 @@ These are the instructions for Google:
 
 ![Facebook Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/128px-Facebook_New_Logo_%282015%29.svg.png)
 
-These are the instructions for Facebook:
+Estas son las instrucciones para Facebook:
 
 - Visit [Facebook Developers](https://developers.facebook.com/)
 - Click **My Apps**, then select **Add a New App* from the dropdown menu
@@ -221,7 +220,7 @@ These are the instructions for Facebook:
 
 ![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/GitHub_logo_2013_padded.svg/128px-GitHub_logo_2013_padded.svg.png)
 
-These are the instructions for GitHub:
+Estas son las instrucciones para GitHub:
 
 - Go to [Account Settings](https://github.com/settings/profile)
 - Select **Applications** from the sidebar
@@ -233,7 +232,7 @@ These are the instructions for GitHub:
 
 ![Twitter Logo](https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/64px-Twitter_bird_logo_2012.svg.png)
 
-These are the instructions for Twitter:
+Estas son las instrucciones para Twitter:
 
 - Sign in at [https://apps.twitter.com/](https://apps.twitter.com/)
 - Click **Create a new application**
@@ -245,13 +244,13 @@ These are the instructions for Twitter:
 - Click **Update this Twitter's applications settings**
 - Copy and paste *Consumer Key* and *Consumer Secret* keys into `config.js` file
 
-## License
+## Licencia
 
-vue-express-mongo-bulma is available under the [MIT license](https://tldrlegal.com/license/mit-license).
+vue-express-mongo-bulma esta disponible bajo [MIT license](https://tldrlegal.com/license/mit-license).
 
-## Contact
+## Contacto
 
-Copyright (C) 2017 Yungol
+Copyright (C) 2017 yungol
 
 [![@yungol](https://img.shields.io/badge/github-yungol-green.svg)](https://github.com/yungol) [![@yungol](https://img.shields.io/badge/twitter-yungol-blue.svg)](https://twitter.com/yungol) [![@yungol](https://img.shields.io/badge/tumblr-yungol-36465d.svg)](https://yungol.tumblr.com)
 
