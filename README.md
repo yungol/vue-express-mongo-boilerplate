@@ -65,7 +65,9 @@ Tenganme paciencia no soy un programador profesional, lo que hago es copiar y pe
 
 Antes de instalar debe tener node.js y mongo.js
 
-Un editor de Código. Para tirar código he pasado por varios ide de desarrollo, desde Dreamweaver, sublime, atom y webstorm pero actualmente el que más me gusta es Visual Studio Code https://code.visualstudio.com/ es de Microsoft, es gratis y se puede instalar en todos los sistemas operativos.
+Un editor de Código. 
+
+Para tirar código he pasado por varios ide de desarrollo, desde Dreamweaver, sublime, atom y webstorm pero actualmente el que más me gusta es Visual Studio Code https://code.visualstudio.com/ es de Microsoft, es gratis y se puede instalar en todos los sistemas operativos.
 
 Programo en Ubuntu y Mac, no me gusta en Windows.
 
@@ -251,4 +253,5 @@ vue-express-mongo-bulma is available under the [MIT license](https://tldrlegal.c
 
 Copyright (C) 2017 Yungol
 
-[![@yungol](https://img.shields.io/badge/github-yungol-green.svg)](https://github.com/yungol) [![@yungol](https://img.shields.io/badge/twitter-yungol-blue.svg)](https://twitter.com/yungol)
+[![@yungol](https://img.shields.io/badge/github-yungol-green.svg)](https://github.com/yungol) [![@yungol](https://img.shields.io/badge/twitter-yungol-blue.svg)](https://twitter.com/yungol)[![@yungol](https://img.shields.io/badge/tumblr-yungol-blue.svg)](https://yungol.tumblr.com)
+
