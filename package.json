@@ -43,6 +43,7 @@
   "author": "Icebob",
   "license": "MIT",
   "dependencies": {
+    "bulma": "^0.5.1",
     "agenda": "0.9.1",
     "async": "2.4.1",
     "axios": "0.16.1",

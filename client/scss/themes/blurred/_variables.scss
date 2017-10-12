@@ -1,15 +1,16 @@
 /* Coolors Exported Palette - coolors.co/00171f-007ea7-00a8e8-ffffff-ef7f0a */
 /* Complementer color - http://colorschemedesigner.com/csd-3.5/#3o21Ttqx7w0w0 */
 
-$color1: #00171f; //rgba(0, 23, 31, 255)
-$color2: #104357; //rgba(16, 67, 87, 255)
-$color3: #00a8e8; //rgba(0, 168, 232, 255)
+$color1: #0747A6; //rgba(0, 23, 31, 255)
+$color2: #F4F4F4; //rgba(16, 67, 87, 255)
+$color3: #3273dc; //rgba(0, 168, 232, 255)
 $color4: #ffffff; //rgba(255, 255, 255, 255)
-$color5: #df691a; //rgba(239, 127, 10, 255)
+$color5: #373737; //rgba(239, 127, 10, 255)
+$color6: #c5c5c5;
 
 $images-root: "~images/";
 
-$glassTheme: true;
+$glassTheme: false;
 $colorAlt: 5%;
 
 $color1-light: lighten($color1, $colorAlt);
@@ -40,7 +41,7 @@ $backgroundColor: $color2;
 //$overlayColor: lighten(desaturate($color3, 30%), 10%);
 $overlayColor: $color2;
 
-$textColor: $color4;
+$textColor: $color5;
 $altTextColor: $color1;
 $titleTextColor: $secondColor;
 
@@ -48,9 +49,9 @@ $buttonColor: $color2-light;
 $buttonPrimaryColor: $secondColor;
 $buttonTextColor: $textColor;
 
-$successColor: #20983b;
-$warningColor: #b38118;
-$dangerColor: #ab1b1b;
+$successColor: #23d160;
+$warningColor: #ffdd57;
+$dangerColor: #ff3860;
 
 $minWidth: 320px;
 
@@ -72,14 +73,14 @@ $baseFont: 16px/18px $fontFamily;
 //$baseFont: 30px/34px $fontFamily;
 
 $headerHeight: 70px;
-$headerBgColor: $color1;
+$headerBgColor: $color4;
 $headerTextColor: $textColor;
 
 
 $menuWidth: 180px;
 $menuMiniWidth: 50px;
 $menuBgColor: $color1;
-$menuTextColor: $textColor;
+$menuTextColor: $color4;
 
-$avatarRadius: 15%;
-$defaultRadius: 5px;
+$avatarRadius: 5%;
+$defaultRadius: 2px;
