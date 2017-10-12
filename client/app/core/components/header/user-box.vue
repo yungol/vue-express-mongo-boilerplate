@@ -1,82 +1,50 @@
 <template lang="pug">
-	.user-box(v-if="me")
-	
-		.user-info.right(@click="toggleUserMenu()")
-			img.avatar(:src='me.avatar')
-			.username {{ me.fullName }}
-			i.fa.fa-chevron-down
 
-		user-dropdown(:visible="expandedUserMenu")
-
-		.notification-box.right
-			ul.icons
-				li(@click="toggleNotifications()", :class=" { active: notifications.length > 0 }")
-					i.fa.fa-bell-o
-					span {{ notifications.length }}
-					.ring
-
-				li(@click="toggleMessages()", :class=" { active: messages.length > 0 }")
-					i.fa.fa-envelope-o
-					span {{ messages.length }}
-					.ring
-			
-			notifications-dropdown(:visible="expandedNotifications")
-			messages-dropdown(:visible="expandedMessages")
-
+	span.nav-item(v-if="me")
+		.dropdown.is-right(v-bind:class="{ 'is-active' : isActive }")
+			.dropdown-trigger
+				button.button.is-primary(aria-haspopup='true', aria-controls='dropdown-menu' @click="activar")
+					span {{ me.fullName }}
+					span.icon.is-small
+						i.fa.fa-angle-down(aria-hidden='true')
+			.dropdown-menu
+				.dropdown-content
+					a.dropdown-item(href='#/profile')
+						| Perfil
+					a.dropdown-item(href='#/settings')
+						| Preferencias
+					hr.dropdown-divider
+					a.dropdown-item(href='/logout')
+						| Salir
 
 </template>
 
 <script>
-	import UserDropdown from "./dropdowns/user";
-	import NotificationsDropdown from "./dropdowns/notifications";
-	import MessagesDropdown from "./dropdowns/messages";
 
 	import { mapActions, mapGetters } from "vuex";
 
 	export default {
 		computed: mapGetters("session", [
-			"me",
-			"notifications",
-			"messages"
+			"me"
 		]),
 
 		components: {
-			UserDropdown,
-			NotificationsDropdown,
-			MessagesDropdown
+			
 		},
 
 		data() {
 			return {
 				expandedUserMenu: false,
-				expandedNotifications: false,
-				expandedMessages: false
+				isActive: false
 			};
 		},
 
 		methods: {
-
-			toggleUserMenu() {
-				this.expandedUserMenu = !this.expandedUserMenu;
-				if (this.expandedUserMenu) {
-					this.expandedMessages = false;
-					this.expandedNotifications = false;
-				}
-			},
-
-			toggleMessages() {
-				this.expandedMessages = !this.expandedMessages;
-				if (this.expandedMessages) {
-					this.expandedUserMenu = false;
-					this.expandedNotifications = false;
-				}
-			},
-
-			toggleNotifications() {
-				this.expandedNotifications = !this.expandedNotifications;
-				if (this.expandedNotifications) {
-					this.expandedMessages = false;
-					this.expandedUserMenu = false;
+			activar() {
+				if (this.isActive === true) {
+					this.isActive = false
+				} else {
+					this.isActive = true
 				}
 			}
 

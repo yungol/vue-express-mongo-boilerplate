@@ -1,15 +1,13 @@
 <template lang="pug">
-	.logo
-		a.nav-item(href="#")
-			span 
-				strong VEM
-				| App
+
+	a.nav-item(href="#") 
+		strong DI
+		| GRAPH
 </template>
 
 <script>
 
 	export default {
-
 	};
 	
 </script>

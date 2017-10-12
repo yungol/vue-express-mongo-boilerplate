@@ -1,32 +1,56 @@
 <template lang="pug">
-	section.page-header
+	nav.navbar
+		.navbar-brand
+			logo
+			
+			.navbar-burger.burger(data-target='navMenubd-example' @click="activar" v-bind:class="{ 'is-active' : isActive }")
+				span
+				span
+				span
 
-		logo.left
+		.navbar-menu(v-bind:class="{ 'is-active' : isActive }")
+			.navbar-start
+				a.navbar-item(href='http://bulma.io/expo/')
+					span.bd-emoji ⭐️
+					| &nbsp;&nbsp;Expo
+				a.navbar-item(href='http://bulma.io/love/')
+					span.bd-emoji ❤️
+					| &nbsp;&nbsp;Love
+			.navbar-end
+				user-box
 
-		.menu-toggle.left(@click="toggleSidebar()")
-			i.fa.fa-bars
-
-		search-box.left
-
-		user-box.right
+		
 
 </template>
 
 <script>
 	import Logo from "./logo";
-	import SearchBox from "./search-box";
 	import UserBox from "./user-box";
 
 	export default {
 		components: {
 			Logo,
-			SearchBox,
 			UserBox
 		},
 
 		props: [
 			"toggleSidebar"
-		]
+		],
+
+		data() {
+			return {
+				isActive: false
+			}
+		},
+		methods: {
+			activar() {
+				if (this.isActive === true) {
+					this.isActive = false
+				} else {
+					this.isActive = true
+				}
+			}
+		}
 
 	};
 	
