@@ -1,8 +1,8 @@
 <template lang="pug">
 
 	a.nav-item(href="#") 
-		strong DI
-		| GRAPH
+		strong Ej
+		| emplo
 </template>
 
 <script>
