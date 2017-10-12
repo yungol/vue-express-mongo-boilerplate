@@ -2,9 +2,14 @@
 	div
 		page-header(:toggle-sidebar="toggleSidebar")
 
-		sidebar(:minimized="miniSidebar")
+		hero
 
-		section.app-main(:class="{ miniSidebar: miniSidebar }")
+		section.section
+			.columns
+				sidebar
+				router-view(keep-alive)
+
+		// section.app-main(:class="{ miniSidebar: miniSidebar }")
 			router-view(keep-alive)
 
 	// a(href="https://github.com/icebob/vue-express-mongo-boilerplate")
@@ -15,6 +20,7 @@
 	import Vue from "vue";
 
 	import PageHeader from "./components/header/index";
+	import Hero from "./components/hero/index";
 	import Sidebar from "./components/sidebar/index";
 
 	import Service from "./service";
@@ -33,7 +39,8 @@
 		 */
 		components: {
 			PageHeader,
-			Sidebar
+			Sidebar,
+			Hero
 		},
 
 		/**
