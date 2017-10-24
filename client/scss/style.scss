@@ -1,7 +1,1 @@
-@import "themes/blurred/variables";
-@import "common/mixins";
 @import '~bulma/bulma.sass';
-
-//@import "../../node_modules/vue-form-generator/dist/vue-form-generator.css";
-
-@include scrollbars(.5em, $color3-dark, $backgroundColor);

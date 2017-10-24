@@ -19,11 +19,11 @@ export default {
                 diagnostico: "Diagnostico"
             },
             subtitulos: {
-                inicio: "Inicio de la Aplicacion",
-                devices: "Devices de la Aplicación",
-                posts: "Post de la Aplicación",
-                counter: "Contador de la Aplicación",
-                diagnostico: "Diagnostico de la Aplicación"
+                inicio: "Subtitulo de Inicio",
+                devices: "Subtitulo de Devices",
+                posts: "Subtitulo de Posts",
+                counter: "Subtitulo de Counter",
+                diagnostico: "Subtitulo de Diagnostico"
             }
         };
     },

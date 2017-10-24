@@ -9,13 +9,6 @@
 				span
 
 		.navbar-menu(v-bind:class="{ 'is-active' : isActive }")
-			.navbar-start
-				a.navbar-item(href='http://bulma.io/expo/')
-					span.bd-emoji ⭐️
-					| &nbsp;&nbsp;Expo
-				a.navbar-item(href='http://bulma.io/love/')
-					span.bd-emoji ❤️
-					| &nbsp;&nbsp;Love
 			.navbar-end
 				user-box
 

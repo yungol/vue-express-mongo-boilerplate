@@ -30,6 +30,5 @@
 </script>
 
 <style lang="scss" scoped>
-	@import "../../../scss/themes/blurred/variables";
 
 </style>

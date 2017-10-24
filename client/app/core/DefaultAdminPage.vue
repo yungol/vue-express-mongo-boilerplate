@@ -216,22 +216,5 @@
 </script>
 
 <style lang="scss" scoped>
-	@import "../../scss/common/mixins";
 
-	.container {
-		padding: 1rem;
-	}
-
-	.form {
-		margin: 1rem 0;
-
-		@include bgTranslucentDark(0.2);
-		border-radius: 8px;
-
-		.buttons {
-			max-width: 400px;
-			padding: 0.5em;
-		}
-
-	}
 </style>

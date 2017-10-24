@@ -50,8 +50,7 @@
 		 */
 		data() {
 			return {
-				wsReconnecting: false,
-				miniSidebar: false
+				wsReconnecting: false
 			};
 		},
 
@@ -109,10 +108,6 @@
 				i = children.length;
 				while (i--)
 					this.update(children[i]);
-			},
-
-			toggleSidebar() {
-				this.miniSidebar = !this.miniSidebar;
 			}
 		},
 
