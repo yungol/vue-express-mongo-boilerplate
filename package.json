@@ -38,7 +38,7 @@
     "starter"
   ],
   "config": {
-    "dbName": "boilerplate"
+    "dbName": "vuejs"
   },
   "author": "Icebob",
   "license": "MIT",
