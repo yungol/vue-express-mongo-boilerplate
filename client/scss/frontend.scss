@@ -1,1 +1,5 @@
 @import '~bulma/bulma.sass';
+@import 'variables.scss';
+body {
+    font-family: $font-principal;
+}
