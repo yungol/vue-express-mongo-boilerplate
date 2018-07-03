@@ -21,7 +21,8 @@
     "lint:fix": "eslint --fix --ext=.js,.vue client server",
     "snyk-protect": "snyk protect",
     "typings": "typings install",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -103,13 +104,13 @@
     "require-webpack-compat": "3.0.0",
     "serve-favicon": "2.4.5",
     "slug": "0.9.1",
-    "snyk": "^1.41.1",
+    "snyk": "^1.88.0",
     "socket.io": "2.0.2",
     "socket.io-client": "2.0.2",
     "uuid-token-generator": "1.0.0",
     "winston": "2.3.1",
     "winston-daily-rotate-file": "1.4.6",
-    "winston-graylog2": "0.6.0",
+    "winston-graylog2": "0.7.1",
     "winston-loggly-bulk": "2.0.0",
     "winston-logsene": "1.2.1",
     "winston-logzio": "1.0.3",
