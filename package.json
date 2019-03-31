@@ -74,7 +74,7 @@
     "helmet-crossdomain": "0.1.0",
     "i18next": "8.3.0",
     "i18next-express-middleware": "1.0.5",
-    "i18next-node-fs-backend": "1.0.0",
+    "i18next-node-fs-backend": "2.1.2",
     "ioredis": "3.0.0",
     "le_node": "1.7.0",
     "lodash": "4.17.4",
