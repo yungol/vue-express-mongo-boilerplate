@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -60,3 +60,22 @@ patch:
         patched: '2017-09-28T02:19:03.719Z'
     - express-status-monitor > socket.io > socket.io-adapter > socket.io-parser > debug:
         patched: '2017-09-28T02:19:03.719Z'
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - express-validator > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - graphql-tools > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - nodemailer-mailgun-transport > mailgun-js > form-data > async > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - ioredis > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T08:01:54.129Z'
